@@ -13,11 +13,9 @@ public class SampleFragmentPagerAdapter extends FragmentPagerAdapter{
 
     private final int PAGE_COUNT = 4;
     private String tabTitles[] = new String[] {"Restaurants", "Nature", "Cultural", "Architecture"};
-    private Context context;
 
-    public SampleFragmentPagerAdapter(FragmentManager fm, Context context) {
+    public SampleFragmentPagerAdapter(FragmentManager fm) {
         super(fm);
-        this.context = context;
     }
 
     @Override

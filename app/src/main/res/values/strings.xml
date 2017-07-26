@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">TourGuideApp</string>
+    <string name="app_name">Gulf of Gdansk Tour Guide</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
@@ -7,4 +7,20 @@
     <string name="gps_default_text">0.0000N, 0.0000E</string>
     <string name="gps_localization">GPS localization:</string>
     <string name="nature_place_name">Nature place</string>
+    <string name="cultural_place">Cultural Place</string>
+    <string name="address_hint">address:</string>
+
+
+    <string name="ecs_description">\t\t The European Solidarity Centre (Polish: Europejskie Centrum Solidarnosci)
+        is a museum and library in Gdansk, Poland, devoted to the history of Solidarity,
+        the Polish trade union and civil resistance movement, and other opposition movements of Communist Eastern Europe.
+        It opened on 31 August 2014. The centre\'s permanent exhibition has around 2,000 exhibits,
+        and the library contains around 100,000 books and documents. The centre also contains a research
+        and academic centre and conducts educational activities, as well as providing space for
+        conferences and temporary exhibitions.</string>
+    <string name="baltic_philharmonic_description">\t\t Polish Baltic F.Chopin Philharmonic in Gdańsk (full name in Polish: Polska Filharmonia Bałtycka im. Fryderyka Chopina w Gdańsku) was founded in 1945 as Gdańsk Symphony Orchestra. The inaugural concert took place on September 29 in Sopot. In 1949 it changed its name to Polish Baltic Philharmonic. In 1953 it was combined with opera department and changed into Polish Baltic Opera and Philharmonic (POiFB). After forming a new symphony orchestra in 1974, Baltic Philharmonic was transformed into independent Polish Baltic F.Chopin Philharmonic in 1993.</string>
+    <string name="baltic_opera_description">\t\t Baltic Opera (formerly Baltic State Opera) is an opera company located in Gdańsk, Poland. It began in February 1949 as the Music and Drama Studio (in Polish: Studio Muzyczno-Dramatyczne) set up by Iwo Gall. In autumn 1949, the Opera Studio (in Polish: Studio Operowe) of the Baltic Philharmonic was founded. In 1953, they were united under the name of Baltic State Opera and Philharmonic. In 1993, after the institution had been divided, the Baltic Opera emerged.</string>
+    <string name="music_theater_description">\t\t Music Theater Name Danuta Baduszkowa has been active since 18 May 1958 and has been almost one of the most important cultural institutions in the region since its inception. It is located in an attractive tourist town, just by the sea. Gdynia is one of the best-developed cities in the country, a modern center of maritime economy, international trade, science, culture and tourism. This is a city of enterprising, active and courageous people.</string>
+    <string name="forest_opera_description">\t\t Built in 1909, the amphitheatre is used for various entertainment events and shows, including opera performances and song festivals. After World War I and almost till end of World War II it was a place of operatic festivals (Zoppot Festspiele) and Sopot was recognized throughout Europe and frequently labelled as the Bayreuth of the North. Here then mostly Wagnerian operas and his music dramas were performed regularly each year.After World War II the Baltic State Opera performed at the Forest Opera few performances each year between 1962 and 1977 (Aida in 1962, Halka in 1964, Der Zigeunerbaron in 1965, Swan Lake in 1968, Die Fledermaus in 1977), and sporadically outside this range (Tannhäuser in 2000).</string>
+
 </resources>

@@ -29,36 +29,31 @@ public class Entry {
         this.entryResourceId = entryResourceId;
     }
 
-    public String getEntryName() {
-        return entryName;
+    public Entry(String entryName, String entryAddress, String entryDescription) {
+        this.entryName = entryName;
+        this.entryAddress = entryAddress;
+        this.entryDescription = entryDescription;
+    }
+    public Entry(String entryName, String entryAddress, int entryResourceId){
+        this.entryName = entryName;
+        this.entryAddress = entryAddress;
+        this.entryResourceId = entryResourceId;
     }
 
-    public void setEntryName(String entryName) {
-        this.entryName = entryName;
+    public String getEntryName() {
+        return entryName;
     }
 
     public String getPriceRange() {
         return priceRange;
     }
 
-    public void setPriceRange(String priceRange) {
-        this.priceRange = priceRange;
-    }
-
     public String getTypeOfKitchen() {
         return typeOfKitchen;
     }
 
-    public void setTypeOfKitchen(String typeOfKitchen) {
-        this.typeOfKitchen = typeOfKitchen;
-    }
-
     public String getEntryAddress() {
         return entryAddress;
-    }
-
-    public void setEntryAddress(String entryAddress) {
-        this.entryAddress = entryAddress;
     }
 
     public double getEntryLocalizationN() {
@@ -73,6 +68,10 @@ public class Entry {
         return entryResourceId;
     }
 
+    public String getEntryDescription() {
+        return entryDescription;
+    }
+
     @Override
     public String toString() {
         final StringBuilder sb = new StringBuilder("Entry{");
@@ -80,6 +79,10 @@ public class Entry {
         sb.append(", priceRange='").append(priceRange).append('\'');
         sb.append(", typeOfKitchen='").append(typeOfKitchen).append('\'');
         sb.append(", entryAddress='").append(entryAddress).append('\'');
+        sb.append(", entryLocalizationN=").append(entryLocalizationN);
+        sb.append(", entryLocalizationE=").append(entryLocalizationE);
+        sb.append(", entryResourceId=").append(entryResourceId);
+        sb.append(", entryDescription='").append(entryDescription).append('\'');
         sb.append('}');
         return sb.toString();
     }
