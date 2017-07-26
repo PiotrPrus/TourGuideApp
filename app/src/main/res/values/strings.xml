@@ -4,4 +4,7 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="fragment_hash">Fragment #</string>
+    <string name="gps_default_text">0.0000N, 0.0000E</string>
+    <string name="gps_localization">GPS localization:</string>
+    <string name="nature_place_name">Nature place</string>
 </resources>
