@@ -36,12 +36,12 @@ public class RestaurantsFragment extends Fragment {
 
     private List<Entry> listOfRestaurants() {
         final List<Entry> restaurants = new ArrayList<>();
-        restaurants.add(new Entry("Malika", "30-60", "Maghreb", "Swietojanska 69b, Gdynia"));
-        restaurants.add(new Entry("Sopocki Mlyn", "20-40", "Dumplings", "Gora zamkowa 2, Sopot"));
-        restaurants.add(new Entry("Bollywood", "20-40", "Indian", "Jana Pawla II 9, Gdynia"));
-        restaurants.add(new Entry("Piwna 47", "40-70", "Modern european", "Piwna 47, Gdansk"));
-        restaurants.add(new Entry("Pobite Gary", "20-40", "Modern", "Bitwy Oliwskiej 34, Gdansk"));
-        restaurants.add(new Entry("Sempre", "25-35", "Italian", "Grunwaldzka 11, Sopot"));
+        restaurants.add(new Entry("Malika", "30-60 PLN", "Maghreb", "69B Swietojanska Street, Gdynia"));
+        restaurants.add(new Entry("Sopocki Mlyn", "20-40 PLN", "Dumplings", "2 Gora zamkowa Street, Sopot"));
+        restaurants.add(new Entry("Bollywood", "20-40 PLN", "Indian", "9 Jana Pawla II Avenue, Gdynia"));
+        restaurants.add(new Entry("Piwna 47", "40-70 PLN", "Modern european", "47 Piwna Street, Gdansk"));
+        restaurants.add(new Entry("Pobite Gary", "20-40 PLN", "Modern", "34 Bitwy Oliwskiej Street, Gdansk"));
+        restaurants.add(new Entry("Sempre", "25-35 PLN", "Italian", "11 Grunwaldzka Street, Sopot"));
         return restaurants;
     }
 

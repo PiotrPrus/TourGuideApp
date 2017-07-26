@@ -1,6 +1,5 @@
 package com.example.prusp.tourguideapp;
 
-import android.content.Context;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
@@ -11,7 +10,7 @@ import android.support.v4.app.FragmentPagerAdapter;
 
 public class SampleFragmentPagerAdapter extends FragmentPagerAdapter{
 
-    private final int PAGE_COUNT = 4;
+    private static final int PAGE_COUNT = 4;
     private String tabTitles[] = new String[] {"Restaurants", "Nature", "Cultural", "Architecture"};
 
     public SampleFragmentPagerAdapter(FragmentManager fm) {

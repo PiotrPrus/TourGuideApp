@@ -22,7 +22,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="8dp"
-                android:text="Architecture object"
                 android:textSize="18sp"
                 android:textStyle="bold" />
 

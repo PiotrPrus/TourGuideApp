@@ -37,11 +37,11 @@ public class ArchitectureFragment extends Fragment {
 
     private List<Entry> listOfArchPlaces() {
         final List<Entry> archPlaces = new ArrayList<>();
-        archPlaces.add(new Entry("katedra Oliwska", "gdansk", 0));
-        archPlaces.add(new Entry("dom uphagena", "gdansk", 0));
-        archPlaces.add(new Entry("Krzywy domek", "sopot", 0));
-        archPlaces.add(new Entry("dworzec PKP Gdańsk", "gdańsk", 0));
-        archPlaces.add(new Entry("kosciol mariacki", "gdansk", 0));
+        archPlaces.add(new Entry("Oliwa Cathedral", "5 Nowickiego Street, Gdansk", R.drawable.cathedral));
+        archPlaces.add(new Entry("Uphagen's House", "12 Dluga Street, Gdansk", R.drawable.uphagen_house));
+        archPlaces.add(new Entry("Crooked House", "53 Monte Cassino Street, Sopot", R.drawable.crooked_house));
+        archPlaces.add(new Entry("Gdansk Main railway station", "1 Podwale Grodzkie Street, Gdansk", R.drawable.railway_station));
+        archPlaces.add(new Entry("Gdansk Old Crane", "67 Szeroka Street, Gdansk", R.drawable.old_crane));
         return archPlaces;
     }
 
