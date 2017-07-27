@@ -36,12 +36,12 @@ public class RestaurantsFragment extends Fragment {
 
     private List<Entry> listOfRestaurants() {
         final List<Entry> restaurants = new ArrayList<>();
-        restaurants.add(new Entry("Malika", "30-60 PLN", "Maghreb", "69B Swietojanska Street, Gdynia"));
-        restaurants.add(new Entry("Sopocki Mlyn", "20-40 PLN", "Dumplings", "2 Gora zamkowa Street, Sopot"));
-        restaurants.add(new Entry("Bollywood", "20-40 PLN", "Indian", "9 Jana Pawla II Avenue, Gdynia"));
-        restaurants.add(new Entry("Piwna 47", "40-70 PLN", "Modern european", "47 Piwna Street, Gdansk"));
-        restaurants.add(new Entry("Pobite Gary", "20-40 PLN", "Modern", "34 Bitwy Oliwskiej Street, Gdansk"));
-        restaurants.add(new Entry("Sempre", "25-35 PLN", "Italian", "11 Grunwaldzka Street, Sopot"));
+        restaurants.add(new Entry(getString(R.string.malika), getString(R.string.malika_price), getString(R.string.malika_type), getString(R.string.malika_address)));
+        restaurants.add(new Entry(getString(R.string.mlyn), getString(R.string.mlyn_prize), getString(R.string.mlyn_ype), getString(R.string.mlyn_address)));
+        restaurants.add(new Entry(getString(R.string.bollywood), getString(R.string.bollywood_price), getString(R.string.bollywood_type), getString(R.string.bollywood_address)));
+        restaurants.add(new Entry(getString(R.string.piwna), getString(R.string.piwna_price), getString(R.string.piwna_type), getString(R.string.piwna_address)));
+        restaurants.add(new Entry(getString(R.string.gary), getString(R.string.gary_price), getString(R.string.gary_type), getString(R.string.gary_address)));
+        restaurants.add(new Entry(getString(R.string.sempre), getString(R.string.sempre_price), getString(R.string.sempre_type), getString(R.string.sempre_address)));
         return restaurants;
     }
 

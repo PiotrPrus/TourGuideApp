@@ -37,11 +37,11 @@ public class NatureFragment extends Fragment {
 
     private List<Entry> listOfNaturePlaces() {
         final List<Entry> naturePlaces = new ArrayList<>();
-        naturePlaces.add(new Entry("Gdynia cliffs", 54.485316, 18.568878, R.drawable.cliff));
-        naturePlaces.add(new Entry("Oliwa Park", 54.409832, 18.562267, R.drawable.park));
-        naturePlaces.add(new Entry("Hel peninsula", 54.608850, 18.800799, R.drawable.hel));
-        naturePlaces.add(new Entry("Sobieszewo island", 54.348213, 18.876085, R.drawable.sobieszewo));
-        naturePlaces.add(new Entry("Lysa hill", 54.442597, 18.541771, R.drawable.hill));
+        naturePlaces.add(new Entry(getString(R.string.cliffs_name), 54.485316, 18.568878, R.drawable.cliff));
+        naturePlaces.add(new Entry(getString(R.string.park_name), 54.409832, 18.562267, R.drawable.park));
+        naturePlaces.add(new Entry(getString(R.string.hel_name), 54.608850, 18.800799, R.drawable.hel));
+        naturePlaces.add(new Entry(getString(R.string.island_name), 54.348213, 18.876085, R.drawable.sobieszewo));
+        naturePlaces.add(new Entry(getString(R.string.hill_name), 54.442597, 18.541771, R.drawable.hill));
         return naturePlaces;
     }
 
