@@ -24,5 +24,9 @@
     <string name="forest_opera_description">\t\t Built in 1909, the amphitheatre is used for various entertainment events and shows, including opera performances and song festivals. After World War I and almost till end of World War II it was a place of operatic festivals (Zoppot Festspiele) and Sopot was recognized throughout Europe and frequently labelled as the Bayreuth of the North. Here then mostly Wagnerian operas and his music dramas were performed regularly each year.After World War II the Baltic State Opera performed at the Forest Opera few performances each year between 1962 and 1977 (Aida in 1962, Halka in 1964, Der Zigeunerbaron in 1965, Swan Lake in 1968, Die Fledermaus in 1977), and sporadically outside this range (Tannhäuser in 2000).</string>
     <string name="type_of_kitchen">Type of kitchen</string>
     <string name="price_range">Price range</string>
+    <string name="restaurant_tab">Restaurants</string>
+    <string name="nature_tab">Nature</string>
+    <string name="cultural_tab">Cultural</string>
+    <string name="arch_tab">Architecture</string>
 
 </resources>

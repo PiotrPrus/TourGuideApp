@@ -18,6 +18,7 @@ import java.util.List;
 public class RestaurantListAdapter extends ArrayAdapter<Entry> {
 
     private List<Entry> entryList;
+
     public RestaurantListAdapter(@NonNull Context context, List<Entry> entryList) {
         super(context, 0);
         this.entryList = entryList;
@@ -38,7 +39,7 @@ public class RestaurantListAdapter extends ArrayAdapter<Entry> {
     @Override
     public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
 
-        if(convertView == null) {
+        if (convertView == null) {
             LayoutInflater inflater = (LayoutInflater) getContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
             convertView = inflater.inflate(R.layout.restaurant_custom_row, null);
         }

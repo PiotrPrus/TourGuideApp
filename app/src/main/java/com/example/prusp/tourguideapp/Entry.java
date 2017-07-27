@@ -22,7 +22,7 @@ public class Entry {
         this.entryAddress = entryAddress;
     }
 
-    public Entry(String entryName, double entryLocalizationN, double entryLocalizationE, int entryResourceId){
+    public Entry(String entryName, double entryLocalizationN, double entryLocalizationE, int entryResourceId) {
         this.entryName = entryName;
         this.entryLocalizationN = entryLocalizationN;
         this.entryLocalizationE = entryLocalizationE;
@@ -34,7 +34,8 @@ public class Entry {
         this.entryAddress = entryAddress;
         this.entryDescription = entryDescription;
     }
-    public Entry(String entryName, String entryAddress, int entryResourceId){
+
+    public Entry(String entryName, String entryAddress, int entryResourceId) {
         this.entryName = entryName;
         this.entryAddress = entryAddress;
         this.entryResourceId = entryResourceId;

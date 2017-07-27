@@ -43,9 +43,9 @@ public class CulturalListAdapter extends ArrayAdapter<Entry> {
             convertView = inflater.inflate(R.layout.cultural_custom_row, null);
         }
 
-Entry currentCulturalPlace = getItem(position);
+        Entry currentCulturalPlace = getItem(position);
 
-        if (currentCulturalPlace !=null){
+        if (currentCulturalPlace != null) {
             TextView culturalPlaceName = (TextView) convertView.findViewById(R.id.cultural_place_text_view);
             culturalPlaceName.setText(currentCulturalPlace.getEntryName());
 
